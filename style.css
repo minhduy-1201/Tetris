@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 320px 200px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#board {
+  border: 2px solid black;
+}
+
+#next_shape {
+  border: 2px solid black;
+}
+
+.play-btn {
+  animation: blink 0.7s steps(2, start) infinite;
+  background-color: chartreuse;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes blink {
+  to {
+    outline: #e7dc13 solid 3px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
